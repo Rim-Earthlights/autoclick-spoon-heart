@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         autoclick-spoon-heart
 // @namespace    http://rim-linq.net
-// @version      0.1
+// @version      0.2
 // @description  automate click for spoon heart.
 // @author       Rim Earthlights
 // @match        https://www.spooncast.net/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=spooncast.net
+// @updateURL    https://github.com/Rim-Earthlights/autoclick-spoon-heart/raw/main/autoclick-spoon-heart.user.js
+// @downloadURL  https://github.com/Rim-Earthlights/autoclick-spoon-heart/raw/main/autoclick-spoon-heart.user.js
 // @grant        none
 // ==/UserScript==
 (function () {
