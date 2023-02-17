@@ -8,26 +8,25 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=spooncast.net
 // @grant        none
 // ==/UserScript==
-(function() {
-'use strict';
-    setInterval(function() {
-        let modal = document.querySelector(".btn-close");
-        let heart = document.querySelector(".btn-wrap .btn-live-wrap > button");
-        let progress = document.querySelector("div .circle_progress");
+(function () {
+  "use strict";
+  setInterval(function () {
+    let modal = document.querySelector(".btn-close");
+    let heart = document.querySelector(".btn-wrap .btn-live-wrap > button");
+    let progress = document.querySelector("div .circle_progress");
 
-        if (modal != null) {
-            console.info("modal window is active.");
-        }
+    if (modal != null) {
+      // console.info("modal window is active.");
+    }
 
-        if (progress != null) {
-            console.info("still in progress");
-            return;
-        }
+    if (progress != null) {
+      // console.info("still in progress");
+      return;
+    }
 
-        if (heart != null) {
-            console.info("click heart!");
-            heart.click();
-        }
-
-    }, 1000);
- })();
+    if (heart != null) {
+      console.info("click heart!");
+      heart.click();
+    }
+  }, 1000);
+})();
